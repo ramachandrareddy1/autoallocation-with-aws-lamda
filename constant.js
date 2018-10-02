@@ -1,4 +1,5 @@
 const AWS = require('aws-sdk');
+
 AWS.config.update({ "accessKeyId": "AKIAJPXWWMBNTQNHVTWQ", "secretAccessKey": "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"});
 AWS.config.update({correctClockSkew: true});
 let constants;
